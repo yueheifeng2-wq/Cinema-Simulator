@@ -1,0 +1,16 @@
+# 超过 GitHub 仓库单文件 100 MB 限制，改由 Releases 分发
+*.exe
+*.zip
+
+# 运行时生成的存档与本机信息：仓库永远保持初始档
+portable_config/viewing-game.json
+portable_config/cinema-resume.json
+portable_config/cinema-audio-check.json
+portable_config/cache/
+*.tmp
+*.bak
+
+# 系统垃圾文件
+Thumbs.db
+desktop.ini
+.DS_Store
