@@ -7,24 +7,21 @@
 
 **一键下载（发给别人这个链接即可）：**
 
-https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest/download/Cinema-Simulator-Portable.zip
+https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest/download/Cinema-Simulator.exe
 
-**全部文件页面：** https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest
+**Release 页面：** https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest
 
-| 文件 | 说明 |
-| --- | --- |
-| `Cinema-Simulator-Portable.zip` | 主程序 + 干净的初始档配置，解压双击即用（推荐） |
-| `电影院模拟器-互动与收藏版.exe` | 只要主程序，不含配置目录 |
-| `画质靠肝-完整开发迁移包.zip` | 完整源码 + 离线 .NET SDK / 依赖，用于继续开发 |
+主程序 `Cinema-Simulator.exe`（约 119 MiB），Windows 10/11 x64，双击即用，无需安装。
 
-> exe 和开发包体积超过 GitHub 仓库单文件 100 MB 的限制，所以放在 Releases 里分发，
-> 仓库本身只保留说明和出厂默认配置。
+> exe 超过 GitHub 仓库单文件 100 MB 限制，因此通过 Releases 分发；仓库本身只保留
+> 说明与出厂默认配置。原目录中的完整开发迁移包（527 MB）本次未上传，需要时可再发布。
 
 ## 关于初始档
 
-发布包里附带的是程序自己生成的**全新初始档**：金币 0、观看时长 0、所有升级未解锁、
-黑白马赛克加静音、只有 1 位初始观众，没有续播记录，也不含任何本机声卡信息。
-仓库本身不保存存档文件，避免把个人游玩进度公开。
+exe 本身不含任何存档。首次启动时，程序会在同目录自动创建 `portable_config`，
+并写入一份**全新初始档**：金币 0、观看时长 0、所有升级未解锁、黑白马赛克加静音、
+只有 1 位初始观众，没有续播记录，也不含任何本机声卡信息。
+仓库本身也不保存存档文件，避免把个人游玩进度公开。
 
 如果你手上是一个玩过的版本，想回到初始档：退出程序，把 exe 同目录下
 `portable_config` 里的 `viewing-game.json`、`cinema-resume.json`、
