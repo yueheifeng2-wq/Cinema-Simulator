@@ -5,17 +5,17 @@
 
 ## 下载
 
-**发给别人这一个链接即可：**
+**一键下载（发给别人这个链接即可）：**
 
-https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest
+https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest/download/Cinema-Simulator-Portable.zip
 
-在 Releases 页面按需下载：
+**全部文件页面：** https://github.com/yueheifeng2-wq/Cinema-Simulator/releases/latest
 
 | 文件 | 说明 |
 | --- | --- |
-| `电影院模拟器-互动与收藏版.exe` | 主程序，Windows 10/11 x64，双击即用，无需安装 |
+| `Cinema-Simulator-Portable.zip` | 主程序 + 干净的初始档配置，解压双击即用（推荐） |
+| `电影院模拟器-互动与收藏版.exe` | 只要主程序，不含配置目录 |
 | `画质靠肝-完整开发迁移包.zip` | 完整源码 + 离线 .NET SDK / 依赖，用于继续开发 |
-| `Cinema-Simulator-初始档-便携版.zip` | 主程序 + 干净的初始配置，解压即用 |
 
 > exe 和开发包体积超过 GitHub 仓库单文件 100 MB 的限制，所以放在 Releases 里分发，
 > 仓库本身只保留说明和出厂默认配置。
